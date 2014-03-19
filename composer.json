@@ -1,0 +1,22 @@
+{
+    "name": "dappa/adwords-php-lib",
+    "type": "library",
+    "description": "AdWords PHP API Client",
+    "keywords": ["adwords", "google"],
+    "homepage": "https://github.com/dappa/adwords-php-lib",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Adam Rogal",
+            "email": "api.arogal@gmail.com",
+            "homepage": "http://code.google.com/p/google-api-adwords-php/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/Google/Api/Ads/AdWords/Lib"]
+    },
+    "include-path": ["src/"]
+}
